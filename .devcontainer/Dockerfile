@@ -4,8 +4,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
 
 RUN su node -c "umask 0002 && npm install -g http-server @vue/cli @vue/cli-service-global"
 
-RUN npm install -g pnpm
-RUN cd actifs-atlantique/ && npm install
+RUN npm install -g pnpm && npm install
 
 WORKDIR /app
 
