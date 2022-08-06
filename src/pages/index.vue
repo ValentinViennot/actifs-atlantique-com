@@ -5,8 +5,8 @@
         <h1>ACTIFS Atlantique</h1>
         <div>
           <span>Activités</span>
-          <span>Séminaires</span>
           <span>Formations</span>
+          <span>Séminaires</span>
         </div>
       </div>
     </SeaSkyAnimation>
