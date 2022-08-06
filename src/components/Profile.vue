@@ -38,4 +38,11 @@ div.profile {
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  div.profile {
+    display: flex;
+    flex-flow: column;
+  }
+}
 </style>

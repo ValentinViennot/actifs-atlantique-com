@@ -53,7 +53,7 @@
         description="thématique, en accord avec vos objectifs…"
       />
     </Squares>
-    <Section>
+    <Section id="logo">
       <img src="../assets/logo.png" />
       <TextSection>
         <h2>Qu'est-ce que ACTIFS Atlantique?</h2>
@@ -133,6 +133,15 @@ div#body {
 
 @media screen and (max-width: 900px) {
   div#body {
+    div#logo {
+      img {
+        display: none;
+      }
+      div {
+        padding: 0;
+      }
+    }
+
     div#header {
       > h1 {
         font-size: 3em;
