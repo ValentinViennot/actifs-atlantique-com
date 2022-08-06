@@ -1,0 +1,15 @@
+<template>
+  <slot />
+</template>
+
+<style>
+@import "~/assets/base.scss";
+
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+}
+</style>
