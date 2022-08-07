@@ -3,7 +3,10 @@
     <img src="../assets/1516370067758.jpeg" />
     <TextSection>
       <h2>Qui suis-je?</h2>
-      <p class="bold">François VIENNOT</p>
+      <p class="bold linkedin">
+        François VIENNOT
+        <LogoLinkedIn />
+      </p>
       <p>
         Ex-directeur de projet ferroviaire, animé par le désir d’entreprendre et
         de transmettre, propose des prestations ponctuelles au service de vos
@@ -24,7 +27,7 @@ div.profile {
   align-items: center;
   justify-content: center;
 
-  img {
+  > img {
     padding: 10px;
     border-radius: 50%;
     border: 4px solid whitesmoke;
@@ -35,6 +38,11 @@ div.profile {
     font-size: 1.3em;
     span.bold {
       font-weight: bold;
+    }
+
+    &.linkedin {
+      display: flex;
+      align-items: start;
     }
   }
 }

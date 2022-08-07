@@ -9,6 +9,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ContactForm: typeof import('./src/components/ContactForm.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    LogoLinkedIn: typeof import('./src/components/LogoLinkedIn.vue')['default']
     Profile: typeof import('./src/components/Profile.vue')['default']
     Quote: typeof import('./src/components/Quote.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
