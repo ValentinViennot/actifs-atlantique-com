@@ -11,7 +11,6 @@
       </div>
     </SeaSkyAnimation>
     <TextSection id="home_text">
-      <h2>10mn de Nantes, 2h30 de Paris</h2>
       <p>
         La côte de Jade en Loire Atlantique présente tous les atouts d’un cadre
         exceptionnel propice à votre séminaire thématique.
